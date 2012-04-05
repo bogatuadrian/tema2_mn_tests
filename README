@@ -8,3 +8,10 @@ the triCL and triCC methods.
 The code is written for GNU Octave, version 3.2.3,
 Copyright (C) 2009 John W. Eaton and others.
 
+Use:
+  put these files in the implementation of triCL(triCC) directory and
+  run testVer() with octave.
+  Default parameters:
+   - 10 tests
+   - maximum 100x100 triangular matrix
+   - triCL method
