@@ -1,0 +1,10 @@
+tri-Tester
+Copyright (C) 2012 Adrian Bogatu
+
+This is a system of triangular liniar equations generator and tester for
+the triCL and triCC methods.
+
+
+The code is written for GNU Octave, version 3.2.3,
+Copyright (C) 2009 John W. Eaton and others.
+
