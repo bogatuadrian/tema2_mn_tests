@@ -15,3 +15,9 @@ Use:
    - 10 tests
    - maximum 100x100 triangular matrix
    - triCL method
+
+FOR SECOND TASK!
+  I added, as I mentioned, a "pseudo"-test, which means that it tests your
+  program using both of the sources in tandem, which means that if there is
+  an error in both of the implementation you could pass the tests, although
+  it's a good testing method...
