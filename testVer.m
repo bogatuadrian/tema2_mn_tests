@@ -24,13 +24,13 @@ function [] = testVer(n_tests = 10, N_MAX = 100, method = "triCL")
 			xrez = triCL(A, b)';
 		end
 		if(x != xrez)
-			failed = [failed i];
+			failed = [failed i]
+      message = "You failed this test!"
+      return
 		end
 	end
 	
 	if(length(failed) == 0)
 		message = "Good job!"
-	else
-		message = ["You failed " num2str(length(failed)) " tests"]
-	end
+  end
 end
